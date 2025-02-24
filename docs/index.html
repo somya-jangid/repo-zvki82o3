@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://www.pexels.com/photo/railway-track-in-city-during-night-258196/" alt="Train Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Book Tickets</a></li>
+                <li><a href="#">My Bookings</a></li>
+                <li><a href="#">PNR Status</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Login/Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="https://unsplash.com/photos/a-train-traveling-down-train-tracks-under-a-bridge-yOIT88xWf8g" alt="Train Image" class="hero-image">
+            <div class="hero-text">
+                <h1>Book Your Train Journey with Ease</h1>
+                <p>Experience the best train booking service.</p>
+                <form class="search-form">
+                    <input type="text" placeholder="From" required>
+                    <input type="text" placeholder="To" required>
+                    <input type="date" required>
+                    <select>
+                        <option value="economy">Economy</option>
+                        <option value="business">Business</option>
+                        <option value="first">First Class</option>
+                    </select>
+                    <input type="number" min="1" max="10" placeholder="Passengers" required>
+                    <button type="submit">Search Trains</button>
+                </form>
+            </div>
+        </section>
+        <section class="featured-destinations">
+            <h2>Featured Destinations</h2>
+            <div class="destination-cards">
+                <div class="card">
+                    <img src="https://www.pexels.com/photo/aerial-view-of-city-buildings-during-night-time-2193300/" alt="City View">
+                    <p>City Night View</p>
+                </div>
+                <div class="card">
+                    <img src="https://unsplash.com/photos/snow-covered-mountain-under-starry-night-JgOeRuGD_Y4" alt="Mountain View">
+                    <p>Mountain Under Stars</p>
+                </div>
+                <div class="card">
+                    <img src="https://www.pexels.com/photo/scenic-view-of-foggy-mountain-1772973/" alt="Foggy Mountain">
+                    <p>Foggy Mountain</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Train Booking. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
